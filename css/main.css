@@ -1,41 +1,77 @@
-header {
-    /*Propiedad que permite alterar la altura*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body {
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
-header {
-    height: 100;
+
+/* Estilos asociados al encabezado */
+
+#header {
+    /* propiedad que permite alterar la altura */
+    height: 100vh;
     background-image: url('../img/header_background.jpeg');
     background-position: center;
     background-size: cover;
 }
 
 #header h1 {
-    padding-left: 20%;
-    padding-right: 20%;
+    color: white;
+    margin: 0;
+    padding: 0 20%;
     font-size: 50px;
 }
 
 #main {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #main p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #main h1 {
-    font-size: 35px;
+    font-size: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+spoiler {}
+
+#img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-/*Diseño Responsive*/
+/* Diseño Responsive */
 
 @media only screen and (max-width: 800px) {
+    /* reglas */
     #header h1 {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding: 0 1%;
         font-size: 40px;
     }
     #main {
@@ -48,4 +84,8 @@ header {
     #main h1 {
         font-size: 35px;
     }
+}
+
+.aña {
+    width: 100%;
 }
